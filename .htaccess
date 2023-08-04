@@ -1,0 +1,10 @@
+Options All -Indexes
+
+
+#RewriteEngine on
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+
+RewriteEngine on
+RewriteCond $1 !^(index\.php|LxIni\.php|robots\.txt|sitemap\.xml|.well-known|absmain|antiguos|vriadds|fedu|cursos|repositor|escalafon|demo|phpmyadmin)
+RewriteRule ^(.*)$ index.php/$1 [L]
