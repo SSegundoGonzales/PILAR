@@ -18,7 +18,7 @@ include( "absmain/mlLibrary.php" );
 
 
 define( "PILAR_CORDIS", "AdmCoords" );
-define( "ANIO_PILAR", "2021" );
+define( "ANIO_PILAR", "2023" );
 
 
 class Cordinads extends CI_Controller { 
@@ -70,16 +70,18 @@ public function index()
 //
 
    $sess = $this->gensession->GetSessionData(PILAR_CORDIS);
+
    if( !$sess ){
       //echo "Err no sess";
       redirect( base_url("pilar"), 'refresh');
       return;
+      
    }
 
-   if( $sess->status==0 ){
-      $this->logout();
-      return;
-   }
+   // if( $sess->status==0 ){
+   //    $this->logout();
+   //    return;
+   // }
 
 
    // Área de Administración del Administrador
@@ -325,8 +327,8 @@ public function publicaSusten(){
 // echo "<br>Preparado para Insertar<br>id:[$id]<br>codigo:[$codigo]<br>fecha:[$fecha]<br>fechadic:[$fechad]<br>hora:[$hora]<br>lugar:[$lugar]<br>IdCarrera:[$IdCarrera]<br>date:[$date]<br>tituloNuevo:[$tituloNuevo] falta solo un poco, esperenme porfavor. <br> Atte Fred.";
    }
 }
-public function evaluaSusten($cod){
-   // $cod=mlSecurePost('cod');
+public function evaluaSusten(){
+   $cod=mlSecurePost('cod');
    $tesis=$this->dbPilar->getSnapRow("tesTramites","Codigo='$cod'");
    if(!$tesis){
       echo "$cod :: No corresponde";
@@ -520,6 +522,7 @@ private function logCorreo( $idTes,$idDoc, $correo, $titulo, $mensaje )
    $this->genmailer->mailPilar( $correo, $titulo, $mensaje );
 
 // procedemos a grabarlo
+
    $this->dbPilar->Insert(
       'logCorreos', array(
          'IdDocente' => $idDoc,
@@ -720,6 +723,7 @@ public function login()
    $this->gensession->SetCordLogin(PILAR_CORDIS,$row->Id,$row->Resp,$row->Id_Facultad,$row->UserLevel,0);
 
    echo '[{"error":false, "msg":"OK, Redirecciónando al panel de trabajo."}]';
+   
    // echo '[{"error":false, "msg":"OK, Estamos redireccionando..."}]';
    //redirect( base_url("pilar3/cordinads") );
 }

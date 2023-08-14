@@ -583,6 +583,7 @@ class Docentes extends CI_Controller {
 
 	public function corrBorras( $idtram=0, $height )
 	{
+        
 		$this->gensession->IsLoggedAccess();
 		$sess = $this->gensession->GetData();
 
@@ -594,6 +595,7 @@ class Docentes extends CI_Controller {
 		*/
 
 		$tram = $this->dbPilar->inProyTram( $idtram );
+
 		if( ! $tram ) {
 			echo "Sin Tramite";
 			return;
@@ -603,6 +605,7 @@ class Docentes extends CI_Controller {
 		$dets = $this->dbPilar->inTramDetIter( $idtram, 4 ); // 4ta
         //-------------------------------------------------------------------------------------------
         $pos = $this->dbPilar->inPosJurado( $tram, $sess->userId );
+
         // $chk = ($pos==1)? $dets->vb1 : (($pos==2)? $dets->vb2 : (($pos==3)? $dets->vb3: ($pos==4)? $dets->vb4: 0  ));
         //-------------------------------------------------------------------------------------------
         // $chk = ($pos==1)? $dets->vb1 : (($pos==2)? $dets->vb2 : (($pos==3)? $dets->vb3:0));
@@ -833,7 +836,7 @@ class Docentes extends CI_Controller {
         $pdf->Ln(5);
 
 
-        $str = "SEÑOR VICERRECTOR DE INVESTIGACIÓN DE LA UNIVERSIDAD NACIONAL DEL ALTIPLANO - PUNO.";
+        $str = "SEÑOR VICERRECTOR DE INVESTIGACIÓN DE LA UNIVERSIDAD NACIONAL MICAELA BASTIDAS DE APURÌMAC.";
 
         $pdf->SetFont( "Arial", "", 12 );
         $pdf->MultiCell( 165, 7, toUTF($str), 0, 'L' );
@@ -954,7 +957,7 @@ class Docentes extends CI_Controller {
         $pdf->Ln(5);
 
 
-        $str = "EL VICERRECTORADO DE INVESTIGACIÓN DE LA UNIVERSIDAD NACIONAL DEL ALTIPLANO - PUNO.";
+        $str = "EL VICERRECTORADO DE INVESTIGACIÓN DE LA UNIVERSIDAD NACIONAL MICAELA BASTIDAS DE APURÌMAC.";
 
         $pdf->SetFont( "Arial", "", 12 );
         $pdf->MultiCell( 165, 7, toUTF($str), 0, 'J' );
@@ -1066,7 +1069,7 @@ class Docentes extends CI_Controller {
         $pdf->Ln(5);
 
 
-        $str = "EL VICERRECTORADO DE INVESTIGACIÓN DE LA UNIVERSIDAD NACIONAL DEL ALTIPLANO - PUNO.";
+        $str = "EL VICERRECTORADO DE INVESTIGACIÓN DE LA UNIVERSIDAD NACIONAL MICAELA BASTIDAS DE APURÌMAC.";
 
         $pdf->SetFont( "Arial", "", 12 );
         $pdf->MultiCell( 165, 7, toUTF($str), 0, 'J' );

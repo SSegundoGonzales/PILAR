@@ -42,7 +42,7 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" rel="home" href="<?=base_url("pilar")?>" title="Universidad Nacional del Altiplano | Vicerrectorado de Investigación">
+            <a class="navbar-brand" rel="home" href="<?=base_url("pilar")?>" title="Universidad Nacional Micaela Bastidas de Apurímac | Vicerrectorado de Investigación">
                 <img class="img-responsive" style="max-width:160px; margin-top: -15px;"
                      src="<?=base_url("vriadds/pilar/imag/logos-u-v-p.png");?>">
             </a>
@@ -62,7 +62,7 @@
 
 <div class="container info-pilar margin">
   <img class="img-responsive logo-pilar3" src="<?=base_url("vriadds/pilar/imag/pilar-n.png");?>">
-  <h3 id="name-pilar">Plataforma de Investigación Universitaria <br>Integrada a la Labor Académica con Responsabilidad </h3><h4><i>Universidad Nacional del Altiplano - Puno</i></h4>
+  <h3 id="name-pilar">Plataforma de Investigación Universitaria <br>Integrada a la Labor Académica con Responsabilidad </h3><h4><i>Universidad Nacional Micaela Bastidas de Apurímac</i></h4>
 </div>
 
 <div class="container ">
@@ -116,7 +116,7 @@
         <div class="titulo">Herramientas del Investigador</div>
       </div>
       <div class="col-md-12 bg-vino footer">
-        Universidad Nacional del Altiplano<br>
+        Universidad Nacional Micaela Bastidas de Apurímac<br>
         Vicerrectorado de Investigación<br>
         Dirección General de Investigación<br>
         &copy; Plataforma de Investigación y Desarrollo

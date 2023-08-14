@@ -18,7 +18,7 @@ include( "absmain/mlLibrary.php" );
 
 
 define( "PILAR_CORDIS", "AdmCoords" );
-define( "ANIO_PILAR", "2018" );
+define( "ANIO_PILAR", "2023" );
 
 
 class Direccioni extends CI_Controller {

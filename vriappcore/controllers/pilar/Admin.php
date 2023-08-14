@@ -43,7 +43,7 @@ include( "absmain/mlLibrary.php" );
 
 
 define( "PILAR_ADMIN", "AdmPilar-III" );
-define( "ANIO_PILAR", "2020" );
+define( "ANIO_PILAR", "2023" );
 // AJAX
 
 
@@ -165,7 +165,7 @@ class Admin extends CI_Controller {
 
     public function panelCaduc()
     {
-        $tbl = $this->dbPilar->getTable( "tesTramites", "Tipo < 0" );
+        $tbl = $this->dbPilar->getTable( "tesTramites", "Tipo > 0" );
 
         foreach( $tbl->result() as $row ){
             $autor = $this->dbPilar->inTesistas( $row->Id );

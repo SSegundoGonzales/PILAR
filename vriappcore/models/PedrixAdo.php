@@ -77,6 +77,7 @@ class PedrixAdo extends CI_Model
             $query = "SELECT * FROM $this->innerDB.$table $extra";
         else
             $query = "SELECT * FROM $this->innerDB.$table WHERE $strCriteria $extra";
+      
 
         return $this->db->query( $query );
     }

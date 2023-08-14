@@ -19,7 +19,7 @@ include( "absmain/mlotiapi.php" );
 
 
 define( "REPO_ADMIN", "AdmRepos" );
-define( "ANIO_PILAR", "2017" );
+define( "ANIO_PILAR", "2023" );
 
 $arrMod = array(
             array( 'Id' => 1, 'Nombre' => "Tesis de pregrado"),
@@ -109,7 +109,7 @@ class Admin extends CI_Controller {
 
         echo "<body style='font-family: Arial; font-size: 11px'> <center>";
         echo "<b> Listado de Tesis Registrados en Repositorio Institucional </b> <br>";
-        echo "<b> UNIVERSIDAD NACIONAL DEL ALTIPLANO - PUNO </b> <br><br>";
+        echo "<b> UNIVERSIDAD NACIONAL MICAELA BASTIDAS DE APURÍMAC </b> <br><br>";
 
         echo "<table class='table table-condensed' style='font-size: 12px'>";
         echo "<tr style='font-weight:bold'>";

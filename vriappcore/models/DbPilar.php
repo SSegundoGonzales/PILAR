@@ -62,6 +62,7 @@ class DbPilar extends PedrixAdo
 
     public function inTramDetIter( $idtram, $iter=1 )
     {
+  
         if( !$idtram ) return null;
         return $this->getSnapRow( "tesTramsDet", "IdTramite=$idtram AND Iteracion=$iter" );
     }

@@ -933,7 +933,7 @@ public function comunicadoAmpCon(){
     . "<center> <img src='".base_url("vriadds/pilar/imag/pilar-head.jpg")."' height=60 ></img></center>"
     . "<div style='clear: both'></div>"
     . "<br> <p> $msg </p> <br><hr style='border:1px dotted #C0C0C0'> "
-    . "<p style='font-size:10px;font-weight:bold'> Universidad Nacional del Altiplano - Puno <br>"
+    . "<p style='font-size:10px;font-weight:bold'> Universidad Nacional Micaela Bastidas de ApurÍmac <br>"
     . "Vicerrectorado de Investigación - VRI <br>Plataforma de Investigación y Desarrollo </p> </div></div>"
     . "</center> </body>";
 

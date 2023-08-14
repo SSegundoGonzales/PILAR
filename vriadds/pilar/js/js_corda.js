@@ -26,7 +26,6 @@ function jsCordDocOpt(val){
 	jVRI("#mdlContCord").load("cordinads/jsmdlDocOpc/"+val);
 }
 function LoadForm(dond,funti,idis){
-	// alert(idis.name);
 	jVRI("#"+dond).load(funti, new FormData(idis));
 }
 

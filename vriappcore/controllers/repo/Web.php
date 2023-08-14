@@ -90,7 +90,7 @@ class Web extends CI_Controller {
         $pdf->SetFont( "Arial", "B", 16 );
 
         $pdf->Ln(1);
-        $pdf->Cell( 172, 8, "UNIVERSIDAD NACIONAL DEL ALTIPLANO - PUNO", 0, 1, "C" );
+        $pdf->Cell( 172, 8, "UNIVERSIDAD NACIONAL MICAELA BASTIDAS DE APURÍMAC", 0, 1, "C" );
         $pdf->Cell( 172, 8, toUTF($facultad), 0, 1, "C" );
         $pdf->Cell( 172, 8, toUTF($carrerap), 0, 1, "C" );
 
@@ -134,7 +134,7 @@ class Web extends CI_Controller {
         $pdf->SetFont( "Arial", "B", 14 );
 
         $pdf->Ln(1);
-        $pdf->Cell( 172, 8, "UNIVERSIDAD NACIONAL DEL ALTIPLANO - PUNO", 0, 1, "C" );
+        $pdf->Cell( 172, 8, "UNIVERSIDAD NACIONAL MICAELA BASTIDAS DE APURÍMAC", 0, 1, "C" );
         $pdf->Cell( 172, 8, toUTF($facultad), 0, 1, "C" );
         $pdf->Cell( 172, 8, toUTF($carrerap), 0, 1, "C" );
         $pdf->SetFont( "Arial", "", 5 );

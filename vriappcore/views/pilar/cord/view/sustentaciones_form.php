@@ -16,7 +16,7 @@
 		                <input name="cod" type="text" class="form-control input-sm" placeholder="2016-1523" autofocus>
 		            </div>
 		            <div class="col-sm-2">
-		                <button type="button" class="btn btn-primary" onclick="LoadForm('postSusten','cordinads/evaluaSusten',frmbusq)">
+		                <button type="button" class="btn btn-primary" onclick="LoadForm('postSusten','cordinads/evaluaSusten/',frmbusq)">
 		                    <span class="glyphicon glyphicon-search"></span> Buscar
 		                </button>
 		            </div>

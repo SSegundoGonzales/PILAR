@@ -20,7 +20,7 @@ include( "absmain/mlotiapi.php" );
 
 // tesBorrador
 // Edicion 2018.a
-define( "ANIO_PILAR", "2020" );
+define( "ANIO_PILAR", "2023" );
 
 
 class Tesistas extends CI_Controller {
@@ -808,23 +808,18 @@ class Tesistas extends CI_Controller {
 
         $sess  = $this->gensession->GetData();
 
-
-        // si falla al subir Borrador termina
         $archi = $this->subirArchevo( 2 );
         if( ! $archi ) return;
 
-
-        //$archi = mlSecurePost( "nomarch" );  siempre es NULL arriba lo asignaremos
+        //$archi = mlSecurePost( "nomarch" );  
         $resum = mlSecurePost( "resumen" );
         $clave = mlSecurePost( "pclaves" );
         $concl = mlSecurePost( "conclus" );
         $titul = mb_strtoupper( mlSecurePost( "nomproy" ) );
 
-
-
         // 1. verificar previo
         // 2. insertar Tramite
-        // 3. insertar detTramite
+        // 3. insertar detTramite echo '[{"error":false, "msg":"OK, Redirecciónando al panel de trabajo."}]';
         // 4. insertar TramiteDoc  mining
         // 5. log de tramites
         // 6. enviar correo...
@@ -1329,6 +1324,7 @@ class Tesistas extends CI_Controller {
     //
     public function loadLinCbo( $tipjur, $linea )
     {
+       
         $this->gensession->IsLoggedAccess();
         $sess = $this->gensession->GetData();
 
@@ -1336,8 +1332,7 @@ class Tesistas extends CI_Controller {
         $dbrep = "vriunap_absmain";
         $dbpil = "vriunap_pilar3";
         // first item
-        echo "<option value='' disabled selected> seleccione </option>";
-    
+        echo "<option value='' disabled selected> seleccione </option>";    
         // aliementamos los nombrados
 
         if( $tipjur == 4 )

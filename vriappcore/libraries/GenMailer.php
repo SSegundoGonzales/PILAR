@@ -35,7 +35,7 @@ class GenMailer extends CI_Email
              . "<img style='float: left' src='http://vriunap.pe/absmain/imgs/sm_vri.png' height=55> &nbsp;&nbsp; "
              . "<div style='clear: both'></div>"
              . "<hr> <p> $msg </p> <br><hr style='border:1px dotted #C0C0C0'> "
-             . "<p style='font-size:10px;font-weight:bold'> Universidad Nacional del Altiplano - Puno <br>"
+             . "<p style='font-size:10px;font-weight:bold'> Universidad Nacional Micaela Bastidas de Apurímac<br>"
              . "Vicerrectorado de Investigación<br>Dirección General de Investigación<br> <small>Plataforma de Investigación y Desarrollo </small> </p> </div></div>"
              . "</center> </body>";
 
@@ -51,7 +51,7 @@ class GenMailer extends CI_Email
              . "<img src='http://vriunap.pe/absmain/imgs/sm_vri.png' height=55> &nbsp;&nbsp; "
              . "<img src='http://vriunap.pe/absmain/imgs/sm_pilar.png' height=60> "
              . "<hr> <p> $msg </p> <br><hr style='border:1px dotted #C0C0C0'> "
-             . "<p style='font-size:10px;font-weight:bold'> Universidad Nacional del Altiplano - Puno <br>"
+             . "<p style='font-size:10px;font-weight:bold'> Universidad Nacional Micaela Bastidas de Apurímac <br>"
              . "Vicerrectorado de Investigación<br>Dirección General de Investigación<br> <small>Plataforma de Investigación y Desarrollo </small> </p> </div></div>"
              . "</center> </body>";
 
@@ -67,7 +67,7 @@ class GenMailer extends CI_Email
              . "<img src='http://vriunap.pe/absmain/imgs/sm_vri.png' height=55> &nbsp;&nbsp; "
              . "<img src='http://vriunap.pe/absmain/imgs/fedu.jpg' height=54> "
              . "<hr> <p align='justify'> $msg </p> <br><hr style='border:1px dotted #C0C0C0'> "
-             . "<p style='font-size:10px;font-weight:bold'> Universidad Nacional del Altiplano - Puno <br>"
+             . "<p style='font-size:10px;font-weight:bold'> Universidad Nacional Micaela Bastidas de Apurímac <br>"
              . "Vicerrectorado de Investigación<br>Dirección General de Investigación<br> <small>Plataforma de Investigación y Desarrollo </small> </p> </div></div>"
              . "</center> </body>";
 

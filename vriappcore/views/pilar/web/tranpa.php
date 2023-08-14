@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" rel="home" href="<?=base_url("pilar")?>" title="Universidad Nacional del Altiplano | Vicerrectorado de Investigación">
+            <a class="navbar-brand" rel="home" href="<?=base_url("pilar")?>" title="Universidad Nacional Micaela Bastidas de Apurímac | Vicerrectorado de Investigación">
                 <img class="img-responsive" style="max-width:160px; margin-top: -15px;"
                      src="<?=base_url("vriadds/pilar/imag/logos-u-v-p.png");?>">
             </a>
@@ -87,7 +87,7 @@
       <!-- end -->
 
       <div class="col-md-12 bg-vino footer">
-        Universidad Nacional del Altiplano<br>
+      Universidad Nacional Micaela Bastidas de Apurímac<br>
         Vicerrectorado de Investigación<br>
         Dirección General de Invesatigación<br>
         &copy; Plataforma de Investigación y Desarrollo</a>

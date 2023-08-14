@@ -90,7 +90,7 @@ class GenSexPdf extends FPDF {
 
         //$this->Ln(1);
         $this->SetFont('Arial','B',10);
-        $this->Cell( $this->width, 6, toUTF("UNIVERSIDAD NACIONAL DEL ALTIPLANO - PUNO"), 0, 1,'C',0);
+        $this->Cell( $this->width, 6, toUTF("UNIVERSIDAD NACIONAL MICAELA BASTIDAS DE APURÍMAC."), 0, 1,'C',0);
 
         $this->SetFont('Arial','B',13);
         $this->SetTextColor(140,140,140);
@@ -120,7 +120,7 @@ class GenSexPdf extends FPDF {
     function Header3()
     {
         $this->SetFont('Arial','',7);
-        $this->Cell( 110, 4,'UNIVERSIDAD NACIONAL DEL ALTIPLANO - PUNO', 0, 0, "C", 0 );  $this->Cell( 80, 4,'' );  $this->Cell( 80, 4,'OFICINA DE RECURSOS HUMANOS', 0, 1, "C", 0 );
+        $this->Cell( 110, 4,'UNIVERSIDAD NACIONAL MICAELA BASTIDAS DE APURÍMAC.', 0, 0, "C", 0 );  $this->Cell( 80, 4,'' );  $this->Cell( 80, 4,'OFICINA DE RECURSOS HUMANOS', 0, 1, "C", 0 );
         $this->Cell( 110, 4, toUTF("FACULTAD DE $this->fac"), 0, 0, "C", 0 );             $this->Cell( 80, 4,'' );  $this->Cell( 80, 4,'UNIDAD DE CONTROL DE ASISTENCIA', 0, 1, "C", 0 );
         $this->Cell( 110, 4, toUTF("ESCUELA PROFESIONAL DE $this->car"), 0, 1, "C", 0 );
 

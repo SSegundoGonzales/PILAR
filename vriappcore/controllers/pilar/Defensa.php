@@ -20,7 +20,7 @@ include( "absmain/mlotiapi.php" );
 
 // tesBorrador
 // Edicion 2018.a
-define( "ANIO_PILAR", "2020" );
+define( "ANIO_PILAR", "2023" );
 
 
 class Defensa extends CI_Controller {
