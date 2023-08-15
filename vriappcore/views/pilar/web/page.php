@@ -50,7 +50,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse navbar-responsive-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="<?=base_url("pilar")?>">Inicio</a></li>
+                <li><a href="https://vrin.unamba.edu.pe/">Inicio</a></li>
                 <li><a href="<?=base_url("pilar/docentes")?>">Docentes</a></li>
                 <li><a href="<?=base_url("pilar/tesistas")?>">Tesistas</a></li>
                 <li><a href="<?=base_url("pilar/cordinads")?>">Coordinadores</a></li>
@@ -70,7 +70,7 @@
       <div class="col-md-9 bg-white margin">
         <div class="titulo">Presentación</div>
         <p class="description">
-            La Universidad Nacional del Altiplano mediante el Vicerrectorado de Investigación y la Plataforma <i>PILAR</i>  
+            La Universidad Nacional Micaela Bastidas de Apurímac mediante el Vicerrectorado de Investigación y la Plataforma <i>PILAR</i>  
             para Docentes, Tesistas y Coordinadores tienen la información disponible para realizar la
             subida, calificacion, revisión y posterior dictaminación de proyectos de investigación de pregrado
             conducentes a la obtención del título profesional.
