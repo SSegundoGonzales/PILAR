@@ -309,9 +309,9 @@
 <script>
 
 
-$(document).ready(function(){
-  $("#myModal3").modal('show');
-});
+// $(document).ready(function(){
+//   $("#myModal3").modal('show');
+// });
 
 
 </script>
