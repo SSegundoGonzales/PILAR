@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i');
 
 /*
 .modal-dialog {
@@ -37,19 +37,19 @@
   .bg-teal{ 
     /*+#26cdf3*/
       /*background-color:#4ecdc4; */
-      background-color:#26cdf3;
+      background-color:#00bcd4;  /*celeste -#26cdf3*/
       color: #ffffff;
   }
   .bg-green{ 
-      background-color:#ffcb6b/*#c7f465*/; /* gren */
+      background-color:#ec4599;/*#c7f465* - naranja #ffcb6b/; /* gren */
       color: #ffffff;
   }
   .bg-red-ligth{ 
-      background-color:#ff6b6b; /* red-ligth */
+      background-color:rgb(156, 39, 176); /* red-ligth #ff6b6b*/
       color: #ffffff;
   }
   .bg-red-dark{ 
-      background-color:#c54d57; /* red-dark */
+      background-color:#1f3e74; /* #c54d57 red-dark - azul #1f3e74*/
       color: #ffffff;
   }
   .bg-white{
@@ -62,7 +62,7 @@
   }
   .bg-vino{ /* Vinoooo*/
     /*background-color: #890032;*/
-    background-color: #d03e73;
+    background-color:rgb(156, 39, 176); /*footer color rgb(156, 39, 176)- #d03e73*/
     color: #fff;
   }
   .contenido1{
@@ -90,8 +90,8 @@
     /*background-color: #556370;*/
     /*background-color: #730037;*/
     /*background-color: rgba(255, 255, 255, 0.63);*/
-    background-color: rgba(149, 0, 68, 0.79);
-    background-color: rgba(137, 0, 50, 0.74);
+    background-color: rgb(156, 39, 176); /*NavBar desglosable */
+    background-color: rgb(156, 39, 176);
   }
   .navbar-default .navbar-nav>li>a {
     /*color: #fff;*/
@@ -150,15 +150,15 @@
     font-size: 1em;
     border-radius: 0px;
     border-color: rgba(255,255,255,.15);
-    background-color: #1f3e74;
+    background-color: rgb(156, 39, 176);
     padding: 5px 0px;
   }
   .btn-preg:hover, .btn-preg:active, .btn-preg:focus{
     background-color: #1f3e74;
     color:white;
   }
-  .btn-user:hover, .btn-user:active, .btn-user:focus{
-    background-color: #d03e73;
+  .btn-user:hover, .btn-user:active, .btn-user:focus{ 
+    background-color: #1f3e74; /* vino #d03e73 - color de Mouse Hover*/
     color:#fff;
   }
   .titulo{
@@ -195,16 +195,16 @@
   }
   .tesista{
     background-color: rgb(0,0,0);
-    background-color: rgba(38, 205, 243, 0.92);
+    background-color:#00bcd4;/* rgba(38, 205, 243, 0.92)-Overlay tesista- pantalla de login - #00bcd4*/
     /*background-color: rgba(78, 205, 196, 0.92);*/
   }
    .docente{
     background-color: rgb(0,0,0);
-    background-color: rgba(255, 203, 107, 0.92);/*rgba(155, 206, 45, 0.92);*/
+    background-color: #ec4599;/*rgba(155, 206, 45, 0.92);*/
   }
   .coord{
     background-color: rgb(0,0,0);
-    background-color: rgba(255, 107, 107, 0.92);
+    background-color: rgb(156, 39, 176);
   }
 
   .overlay-content {
@@ -224,7 +224,7 @@
       transition: 0.3s; }
 
   .overlay a:hover, .overlay a:focus {
-      color: #d03e73;
+      color:#d03e73; /*hover #d03e73 - azul #1f3e74*/
   }
 
   .overlay .closebtn {
@@ -284,15 +284,15 @@
   margin:0 auto;
 }
 .login-title-tes{
-  color:#26cdf3;
+  color:#00bcd4; /*colores en el titulo del login*/
   font-weight: bold;
 }
 .login-title-doc{
-  color:#ffcb6b;
+  color:#ec4599;
   font-weight: bold;
 }
 .login-title-cord{
-  color:#ff6b6b;
+  color:rgb(156, 39, 176);
   font-weight: bold;
 }
 
@@ -332,17 +332,17 @@
   cursor: pointer;
 }
 .login-btn-tesista{
-    background: #26cdf3;
+    background: #00bcd4;/*celeste #26cdf3 - Botones de login*/
 }
 .login-btn-docente{
-    background: #ffcb6b;
+    background: #ec4599; /*naranja #ffcb6b*/
 }
 .login-btn-coord{
-    background: #ff6b6b;
+    background: rgb(156, 39, 176); /* red #ff6b6b*/
 }
 .form button:hover,.form button:active,.form button:focus {
     font-weight: bold;
-    color:;
+    color:#1f3e74;
 }
 .form .message {
   margin: 15px 0 0;
