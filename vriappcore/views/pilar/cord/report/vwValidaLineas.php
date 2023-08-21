@@ -16,7 +16,7 @@ $oppcion=" ";
 				<?php
 				$flag=1;
 				foreach($lineas->result() as $row){
-					$nom=$this->dbRepo->getOneField("dic_LineasVRI","Nombre","Id=$row->id_lineaV");
+					$nom=$this->dbRepo->getOneField("dic_LineasVRI","Nombre","Id=$row->Id");//Seleccionar por el ID de lineas de investigacion
 					?>
 					<thead>
 						<tr>
