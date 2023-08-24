@@ -59,7 +59,7 @@
 
 
         // popUp con Id Tipo
-        $archivo= "<a href='http://vriunap.pe/repositor/docs/$det->Archivo' target='_blank' class='btn btn-xs btn-info'> Archivo</a>";
+        $archivo= "<a href='http://localhost/repositor/docs/$det->Archivo' target='_blank' class='btn btn-xs btn-info'> Archivo</a>";
         $menus = "";
         $estado = "";
 		//-----------------------------------------------------------------------------------------------------
