@@ -649,7 +649,7 @@ class Tesistas extends CI_Controller {
 
 
         $strBloq = "Para dar fe de este proceso electrónico, el Vicerrectorado de Investigación de la Universidad "
-                 . "Nacional del Altiplano - Puno, mediante la Plataforma de Investigación se le asigna la presente "
+                 . "Nacional Micaela Bastidas de Apurímac - Apurímac, mediante la Plataforma de Investigación se le asigna la presente "
                  . "constancia y a partir de la presente fecha queda expedito para la ejecución de su PROYECTO DE INVESTIGACIÓN DE TESIS.";
 
         $pdf->Ln(5);
@@ -658,7 +658,7 @@ class Tesistas extends CI_Controller {
 
         $pdf->Ln(8);
         $pdf->SetFont( "Arial", "B", 11 );
-        $pdf->MultiCell( 174, 5.5, toUTF("Puno, $mes de $ano"), 0, 'R' );
+        $pdf->MultiCell( 174, 5.5, toUTF("Apurimac, $mes de $ano"), 0, 'R' );
 
         $pdf->Image( 'vriadds/pilar/imag/aprofirma.jpg', 75, 230, 80 );
 
@@ -782,7 +782,7 @@ class Tesistas extends CI_Controller {
 
 
         $strBloq = "Para dar fe de este proceso electrónico, el Vicerrectorado de Investigación de la Universidad "
-                 . "Nacional del Altiplano - Puno, mediante la Plataforma de Investigación se le asigna la presente "
+                 . "Nacional Micaela Bastidas de Apurímac - Apurímac, mediante la Plataforma de Investigación se le asigna la presente "
                  . "constancia y a partir de la presente fecha queda expedito para la ejecución de su PROYECTO DE INVESTIGACIÓN DE TESIS.";
 
         $pdf->Ln(5);
@@ -791,7 +791,7 @@ class Tesistas extends CI_Controller {
 
         $pdf->Ln(8);
         $pdf->SetFont( "Arial", "B", 11 );
-        $pdf->MultiCell( 174, 5.5, toUTF("Puno, $mes de $ano"), 0, 'R' );
+        $pdf->MultiCell( 174, 5.5, toUTF("Apurímac, $mes de $ano"), 0, 'R' );
 
         //$pdf->Image( '/vriadds/pilar/imag/aprofirma.jpg', 75, 230, 80 );
 
@@ -1444,7 +1444,7 @@ class Tesistas extends CI_Controller {
                  . "Ud. ha concluido satisfactoriamente su inscripción en la  "
                  . "Plataforma PILAR para el trámite electrónico de su "
                  . "proyecto y borrador de tesis, en calidad de estudiante "
-                 . "egresado de la <b>UNA - Puno</b>."
+                 . "egresado de la <b>UNAMBA - Apurimac</b>."
                  . "<br><br><b>Datos de su Cuenta:</b><br>"
                  . "  * usuario: $mail<br>"
                  . "  * contraseña: $pass<br>"
@@ -1485,7 +1485,7 @@ class Tesistas extends CI_Controller {
 
         $alumno = otiGetData($codigo);
         if( $alumno == null ) {
-            echo "<b> Can't connect to: unap.edu.pe </b>";
+            echo "<b> Can't connect to: unamba.edu.pe </b>";
             return;
         }
 

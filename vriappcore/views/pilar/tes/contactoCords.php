@@ -42,11 +42,11 @@
 				 </tr>
 				 <tr>
 					 <td width="30%">Correo Consultas</td>
-					 <td #id>: mmamanic@unap.edu.pe</td>
+					 <td #id>: mmamanic@unamba.edu.pe</td>
 				 </tr>
 				 <tr>
 					 <td width="30%">Correo Trámites</td>
-					 <td >: repositorio@unap.edu.pe</td>
+					 <td >: repositorio@unamba.edu.pe</td>
 				 </tr>
 				 <tr>
 					 <td width="30%">Celular <a href="javascript:void(0)" class="label label-info" onclick="show()">Mostrar</span></a>

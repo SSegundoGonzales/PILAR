@@ -183,7 +183,7 @@ class Admin extends CI_Controller {
             $pdf->Cell( 170, 10, toUTF("CONSTANCIA"), 0, 1, 'C' );
 
 
-            $str = "El Repositorio Institucional de la Universidad Nacional del Altiplano. "
+            $str = "El Repositorio Institucional de la Universidad Nacional Micaela Bastidas de Apurímac. "
                  . "Hace constar que:";
 
             $pdf->Ln(5);

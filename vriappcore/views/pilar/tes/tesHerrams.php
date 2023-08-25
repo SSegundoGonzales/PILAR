@@ -22,7 +22,7 @@
 			<img class="img-responsive" style="background-color: #0c4b8a;" src="<?php echo base_url("vriadds/pilar/imag/herram/repo_unap.png");?>">
 		</div>
 		<div class="col-md-9">
-			<h4 class="title">Repositorio UNAP</h4>
+			<h4 class="title">Repositorio UNAMBA</h4>
 			<p class="text-justify">El repositorio Insitucional, nos ofrece las tesis de la Universidad Nacional Micaela Bastidas de Apurímac,  realizadas por las 35 escuelas profesionales además de la Escuela de Post Grado.
 			</p>
 		</div>
