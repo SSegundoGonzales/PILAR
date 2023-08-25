@@ -37,15 +37,15 @@
   .bg-teal{ 
     /*+#26cdf3*/
       /*background-color:#4ecdc4; */
-      background-color:#00bcd4;  /*celeste -#26cdf3*/
+      background-color:#7cb11a;  /*celeste -#26cdf3*/
       color: #ffffff;
   }
   .bg-green{ 
-      background-color:#ec4599;/*#c7f465* - naranja #ffcb6b/; /* gren */
+      background-color:#b11a7c;/*#c7f465* - naranja #ffcb6b/; /* gren */
       color: #ffffff;
   }
   .bg-red-ligth{ 
-      background-color:rgb(156, 39, 176); /* red-ligth #ff6b6b*/
+      background-color:#9b1ab1; /* red-ligth #ff6b6b*/
       color: #ffffff;
   }
   .bg-red-dark{ 
@@ -84,14 +84,14 @@
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .navbar-nav  li a:hover {
-      color: #00bcd4 !important;
+      color: #a7eb29 !important;
   }
   .navbar-default{
     /*background-color: #556370;*/
     /*background-color: #730037;*/
     /*background-color: rgba(255, 255, 255, 0.63);*/
-    background-color: rgb(156, 39, 176); /*NavBar desglosable */
-    background-color: rgb(156, 39, 176);
+    background-color: #9b1ab1; /*NavBar desglosable */
+    background-color: #9b1ab1;
   }
   .navbar-default .navbar-nav>li>a {
     /*color: #fff;*/
@@ -114,7 +114,7 @@
     width: 100%;
     text-align: center;
     align-content: center;
-    background-color: rgba(149, 0, 68, 1.0);
+    background-color: #9b1ab1;
 
     padding: 8em 1.6875em 2em  2em;
     background-image: url("/vriadds/pilar/imag/baner.png");
@@ -154,23 +154,23 @@
     padding: 5px 0px;
   }
   .btn-preg:hover, .btn-preg:active, .btn-preg:focus{
-    background-color: #1f3e74;
+    background-color: #61106f;
     color:white;
   }
   .btn-user:hover, .btn-user:active, .btn-user:focus{ 
-    background-color: #1f3e74; /* vino #d03e73 - color de Mouse Hover*/
+    background-color: #61106f; /* vino #d03e73 - color de Mouse Hover*/
     color:#fff;
   }
   .titulo{
-    color:#00bcd4;
+    color:#7cb11a;
     border-bottom-style: solid;
-    border-bottom: 2.5px solid #00bcd4;
+    border-bottom: 2.5px solid #7cb11a;
     margin-bottom: 20px;
     font-size: 19px;
   }
   a.blink{
     color: #fff;
-    background-color: #00bcd4;
+    background-color: #7cb11a;
     border: 1px solid #ddd;
     border: none;
     padding: 5px 15px
@@ -195,16 +195,16 @@
   }
   .tesista{
     background-color: rgb(0,0,0);
-    background-color:#00bcd4;/* rgba(38, 205, 243, 0.92)-Overlay tesista- pantalla de login - #00bcd4*/
+    background-color:rgba(124,177,26,0.8);/* rgba(38, 205, 243, 0.92)-Overlay tesista- pantalla de login - #00bcd4*/
     /*background-color: rgba(78, 205, 196, 0.92);*/
   }
    .docente{
     background-color: rgb(0,0,0);
-    background-color: #ec4599;/*rgba(155, 206, 45, 0.92);*/
+    background-color: rgba(177,26,124,0.8);/*rgba(155, 206, 45, 0.92);*/
   }
   .coord{
     background-color: rgb(0,0,0);
-    background-color: rgb(156, 39, 176);
+    background-color: rgba(155, 26,177,0.8);
   }
 
   .overlay-content {
@@ -236,7 +236,7 @@
 
   @media screen and (max-width: 520px) {
       .info-pilar{
-          background: rgba(137, 0, 50, 0.94);
+          background: #9b1ab1;
       }
       h3{
         font-size: 16px;
@@ -284,15 +284,15 @@
   margin:0 auto;
 }
 .login-title-tes{
-  color:#00bcd4; /*colores en el titulo del login*/
+  color:#7cb11a; /*colores en el titulo del login*/
   font-weight: bold;
 }
 .login-title-doc{
-  color:#ec4599;
+  color:#b11a7c;
   font-weight: bold;
 }
 .login-title-cord{
-  color:rgb(156, 39, 176);
+  color:#9b1ab1;
   font-weight: bold;
 }
 
@@ -332,13 +332,13 @@
   cursor: pointer;
 }
 .login-btn-tesista{
-    background: #00bcd4;/*celeste #26cdf3 - Botones de login*/
+    background: #7cb11a;/*celeste #26cdf3 - Botones de login*/
 }
 .login-btn-docente{
-    background: #ec4599; /*naranja #ffcb6b*/
+    background: #b11a7c; /*naranja #ffcb6b*/
 }
 .login-btn-coord{
-    background: rgb(156, 39, 176); /* red #ff6b6b*/
+    background: #9b1ab1; /* red #ff6b6b*/
 }
 .form button:hover,.form button:active,.form button:focus {
     font-weight: bold;
