@@ -30,7 +30,7 @@
         <a onclick="lodPanel('panelView','docentes/infoTrams/3')" href="javascript:void(0)" class="list-group-item"><span class="glyphicon glyphicon-book"></span> Constancias</a>
 
 
-        <a  href="<?=base_url('tramiteonline');?>" class="list-group-item"><span class="glyphicon glyphicon-book"></span> Nuevos Reglamentos </a>
+        <a  href="#" class="list-group-item"><span class="glyphicon glyphicon-book"></span> Nuevos Reglamentos </a>
         <hr>
     <!--     <a onclick="lodPanel('panelView','docentes/programaLaspau')" href="javascript:void(0)" class="list-group-item"><center></span>Convocatoria <br> LASPAU </center>
             <img class="img-responsive pull-left vri-logo-small" src= "<?php //echo base_url("vriadds/vri/web/laspau.png");?>" >

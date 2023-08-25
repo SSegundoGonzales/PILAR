@@ -235,7 +235,7 @@ class Tesistas extends CI_Controller {
         $sess = $this->gensession->GetData();
         $tram = $this->dbPilar->inRowTesista( $sess->userId );
 
-        $contacto=$this->dbPilar->getSnapRow('tblSecres',"Id_Facultad=$tram->IdFacultad AND UserLevel=4");
+        $contacto=$this->dbPilar->getSnapRow('tblSecres',"Id_Facultad=$tram->IdFacultad AND UserLevel=1");
         $this->load->view("pilar/tes/contactoCords",array(
             'nombre'=>$contacto->Resp,
             'mail'=>$contacto->Correo,
